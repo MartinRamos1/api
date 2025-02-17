@@ -1,12 +1,12 @@
 {
     "name": "api",
     "version": "1.0.0",
-    "description": "Proyecto de scraping con Puppeteer y Vercel",
+    "description": "Proyecto de scraping con Puppeteer",
     "main": "index.js",
     "scripts": {
-        "dev": "vercel dev",
+        "dev": "bun run start",
         "start": "node index.js",
-        "build": "vercel build"
+        "build": "echo 'No build step required'"
     },
     "dependencies": {
         "@sparticuz/chromium": "^132.0.0",
